@@ -17,24 +17,24 @@ public class BTNode<T> {
     }
 
     public void setItem(T key) {
-		this.item = key;
-	}
-
-	public BTNode<T> getLeft() {
-		return left;
-	}
-
-	public BTNode<T> getRight() {
-		return right;
+        this.item = key;
     }
 
-	public void setLeft(BTNode<T> left) {
-		this.left = left;
-	}
+    public BTNode<T> getLeft() {
+        return left;
+    }
 
-	public void setRight(BTNode<T> right) {
-		this.right = right;
-	}
+    public BTNode<T> getRight() {
+        return right;
+    }
+
+    public void setLeft(BTNode<T> left) {
+        this.left = left;
+    }
+
+    public void setRight(BTNode<T> right) {
+        this.right = right;
+    }
     
     
 }
